@@ -1,0 +1,58 @@
+/* Reset Default Behaviour  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* App Wrapper  */
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.app-title{
+    text-align: center;
+    padding: 30px 0;
+}
+/* User Box  */
+.wrapper .user{
+    text-align: center;
+    width: 300px;
+    box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.75);
+}
+
+/* All Image Style  */
+div.img-container{
+    
+}
+div.img-container img{
+    width: 100%;
+}
+
+.followers-img-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.followers-img-container img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+/* Verticle Margins  */
+.follower-info{
+    margin-top: 30px;
+    border: solid #0000001f 2px;
+  }
+
+.followers-img-container, h3, p{
+  margin: 5px 0;
+}
